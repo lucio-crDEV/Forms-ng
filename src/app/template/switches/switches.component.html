@@ -92,7 +92,7 @@
                 <input class="form-check-input" 
                        type="checkbox"
                        name="terms"
-                       [(ngModel)]="persona.terms"
+                       [(ngModel)]="terms"
                        id="terminos"
                        role="button"
                        required>
@@ -121,8 +121,13 @@
 <pre>{{ miFormulario.value| json }}</pre>
 <br>
 
+<h5>Persona</h5>
+<pre>{{ persona| json }}</pre>
+<br>
+
 <h5>Valid:</h5>
 <pre>{{ miFormulario.valid }}</pre>
-
 <br>
-<pre>Condiciones:</pre>
+
+<h5>Terminos: </h5>
+<pre>{{ terms }}</pre>

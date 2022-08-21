@@ -10,7 +10,8 @@ export class SwitchesComponent  {
 persona = {
   genero: '',
   notifications: true,
-  terms: false
 }
+
+terms:boolean = false
 
 }
